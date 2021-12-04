@@ -2,33 +2,15 @@ package main
 
 import (
 	"fmt"
-	"os"
-	"strconv"
-	"strings"
+	"github.com/collinshoop/adventofcode2021/internal/util"
 )
 
 func main() {
-	input := input()
+	input := util.ReadInts("inputs/day1.txt")
 	a1 := part1(input)
 	fmt.Println("A1:", a1)
 	a2 := part2(input)
 	fmt.Println("A2:", a2)
-}
-
-func input() []int {
-	dat, err := os.ReadFile("inputs/day1.txt")
-	if err != nil {
-		panic(err)
-	}
-	vals := []int{}
-	for _, vs := range strings.Split(string(dat), "\r\n") {
-		v, err := strconv.Atoi(vs)
-		if err != nil {
-			panic(err)
-		}
-		vals = append(vals, v)
-	}
-	return vals
 }
 
 func part1(input []int) int {
