@@ -34,6 +34,7 @@ func part1(input []string) int {
 	return max
 }
 
+// How many Calories are those Elves carrying in total?
 func part2(input []string) int {
 	// should have just used a slice and sorted it
 	top := util.NewIntHeap(false)
