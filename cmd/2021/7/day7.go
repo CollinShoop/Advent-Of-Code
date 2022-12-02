@@ -13,7 +13,7 @@ func main() {
 }
 
 func part1() {
-	input := util.ReadFile("inputs/day7.txt")
+	input := util.ReadFile("inputs/2021/day7.txt")
 	strPositions := strings.Split(input, ",")
 	positions := make([]int, len(strPositions))
 
@@ -48,7 +48,7 @@ func part1() {
 }
 
 func part2() {
-	input := util.ReadFile("inputs/day7.txt")
+	input := util.ReadFile("inputs/2021/day7.txt")
 	strPositions := strings.Split(input, ",")
 	positions := make([]int, len(strPositions))
 

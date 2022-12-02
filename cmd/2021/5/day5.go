@@ -9,7 +9,7 @@ import (
 
 func main() {
 	start := time.Now()
-	inputs := util.ReadLines("inputs/day5.txt")
+	inputs := util.ReadLines("inputs/2021/day5.txt")
 	part1(inputs)
 	part2(inputs)
 	fmt.Println("Took", time.Since(start))

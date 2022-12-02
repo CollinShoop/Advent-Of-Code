@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	manual := NewPaperManual(util.ReadLines("inputs/day13.txt"))
+	manual := NewPaperManual(util.ReadLines("inputs/2021/day13.txt"))
 	manual.fold()
 	fmt.Printf("(Part1) There are %d dots visible after the first fold\n", len(manual.dots))
 

@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	inputs := util.ReadLines("inputs/day2.txt")
+	inputs := util.ReadLines("inputs/2021/day2.txt")
 	part1(inputs)
 	part2(inputs)
 }

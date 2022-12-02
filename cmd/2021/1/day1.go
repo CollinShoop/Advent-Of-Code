@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	input := util.ReadInts("inputs/day1.txt")
+	input := util.ReadInts("inputs/2021/day1.txt")
 	a1 := part1(input)
 	fmt.Println("A1:", a1)
 	a2 := part2(input)

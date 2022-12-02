@@ -12,7 +12,7 @@ func main() {
 }
 
 func part1() {
-	inputs := util.ReadLines("inputs/day9.txt")
+	inputs := util.ReadLines("inputs/2021/day9.txt")
 
 	isLower := func(r uint8, i, j int) bool {
 		if i < 0 || j < 0 || i >= len(inputs) || j >= len(inputs[i]) {
@@ -42,7 +42,7 @@ func part2() {
 	// convert input into a mutable map
 	var heightMap [][]uint8
 	{
-		for _, row := range util.ReadLines("inputs/day9.txt") {
+		for _, row := range util.ReadLines("inputs/2021/day9.txt") {
 			heightMap = append(heightMap, []uint8(row))
 		}
 	}

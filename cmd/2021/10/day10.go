@@ -29,7 +29,7 @@ var pointMap = map[uint8]int{
 }
 
 func part1() {
-	inputs := util.ReadLines("inputs/day10.txt")
+	inputs := util.ReadLines("inputs/2021/day10.txt")
 
 	rStack := []uint8{}
 	push := func(r uint8) {
@@ -67,7 +67,7 @@ func part1() {
 }
 
 func part2() {
-	inputs := util.ReadLines("inputs/day10.txt")
+	inputs := util.ReadLines("inputs/2021/day10.txt")
 
 	// simple rune stack
 	stack := []uint8{}

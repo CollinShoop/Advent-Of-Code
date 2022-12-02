@@ -8,7 +8,7 @@ import (
 var FLASHED = -1
 
 func main() {
-	inputs := util.ReadLines("inputs/day11.txt")
+	inputs := util.ReadLines("inputs/2021/day11.txt")
 
 	// parse inputs into 2d grid
 	grid := make([][]int, len(inputs))

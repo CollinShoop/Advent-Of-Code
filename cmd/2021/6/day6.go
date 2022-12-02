@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	input := util.ReadFile("inputs/day6.txt")
+	input := util.ReadFile("inputs/2021/day6.txt")
 	part1(input, 80)
 	part2(input, 256)
 }

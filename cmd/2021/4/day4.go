@@ -34,7 +34,7 @@ func optimizedSolution() {
 		In total this performs ~15-20x, excluding reading in the input moves and boards.
 	*/
 
-	inputs := util.ReadLines("inputs/day4.txt")
+	inputs := util.ReadLines("inputs/2021/day4.txt")
 	moves := strings.Split(inputs[0], ",")
 	boards := parseBoards(inputs[1:])
 
@@ -113,7 +113,7 @@ func optimizedSolution() {
 }
 
 func basicSolution() {
-	inputs := util.ReadLines("inputs/day4.txt")
+	inputs := util.ReadLines("inputs/2021/day4.txt")
 	moves := strings.Split(inputs[0], ",")
 	boards := parseBoards(inputs[1:])
 

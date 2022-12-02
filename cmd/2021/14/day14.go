@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	polymer := NewPolymer(util.ReadLines("inputs/day14.txt"))
+	polymer := NewPolymer(util.ReadLines("inputs/2021/day14.txt"))
 
 	for i := 0; i < 10; i++ {
 		polymer.Grow()

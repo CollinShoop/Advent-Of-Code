@@ -18,7 +18,7 @@ func main() {
 
 func part1() {
 	sum := 0
-	for _, input := range util.ReadLines("inputs/day8.txt") {
+	for _, input := range util.ReadLines("inputs/2021/day8.txt") {
 		for _, digit := range strings.Split(strings.Split(input, " | ")[1], " ") {
 			switch len(digit) {
 			//   1, 4, 7, 8
@@ -88,7 +88,7 @@ func part2() {
 
 	sum := 0
 
-	inputs := util.ReadLines("inputs/day8.txt")
+	inputs := util.ReadLines("inputs/2021/day8.txt")
 	for _, input := range inputs {
 		fmt.Printf("(Part2) Inputs: '%s'\n", input)
 		parts := strings.Split(input, " | ")

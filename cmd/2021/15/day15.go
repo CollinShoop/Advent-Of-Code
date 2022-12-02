@@ -16,7 +16,7 @@ func main() {
 			Once no changes are made, we know the map is complete, so the risk of the bottom-right cell has to be accurate.
 	*/
 
-	cm := NewChitonMap(util.ReadLines("inputs/day15.txt"))
+	cm := NewChitonMap(util.ReadLines("inputs/2021/day15.txt"))
 	for cm.Evolve() > 0 {
 		//cm.Print()
 	}

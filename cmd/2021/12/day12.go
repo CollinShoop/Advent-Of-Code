@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	cave := NewCave(util.ReadLines("inputs/day12.txt"))
+	cave := NewCave(util.ReadLines("inputs/2021/day12.txt"))
 
 	cave.Explore(false)
 	fmt.Printf("(Part1) There are %d paths\n", cave.PathCount)
