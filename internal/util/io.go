@@ -15,7 +15,7 @@ func ReadFile(path string) string {
 }
 
 func ReadLines(path string) []string {
-	return strings.Split(ReadFile(path), "\r\n")
+	return strings.Split(strings.ReplaceAll(ReadFile(path), "\r\n", "\n"), "\n")
 }
 
 func ReadInts(path string) []int {
